@@ -6,7 +6,8 @@
 template<typename T>
 class Iterator {
 public:
-    using value_type = T;
+    typedef T value_type;
+//    using value_type = T;
     using pointer = T *;
     using reference = T &;
 
